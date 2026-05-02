@@ -1,0 +1,35 @@
+digraph {
+	rankdir=TB size="8,10"
+	node [fontname=Helvetica shape=box style=filled]
+	start [label=Start fillcolor="#99ccff" shape=ellipse]
+	load [label="Load & Preprocess Dataset
+(StandardScaler)" fillcolor="#b3d9ff"]
+	init [label="Initialize ACO Parameters
+(ants, iterations, pheromones)" fillcolor="#80bfff"]
+	loop_subsets [label="For Each Subset (n=6)" fillcolor="#66b3ff"]
+	pheromone [label="Initialize Pheromone Vector" fillcolor="#4da6ff"]
+	iteration [label="For Each Iteration (n=100)" fillcolor="#3399ff"]
+	generate [label="Generate Subsets
+(Based on Pheromone Prob)" fillcolor="#1a8cff"]
+	evaluate [label="Evaluate Subsets (F1 Score)
+Using 3 Models & Stratified 5-Fold CV" fillcolor="#0073e6"]
+	update [label="Update Pheromone Matrix" fillcolor="#0059b3"]
+	best_subset [label="Select Best Subset
+(Post-filter with Mutual Info)" fillcolor="#004080"]
+	save [label="Save Selected Subsets
+to File" fillcolor="#00264d"]
+	end [label=End fillcolor="#99ccff" shape=ellipse]
+	start -> load
+	load -> init
+	init -> loop_subsets
+	loop_subsets -> pheromone
+	pheromone -> iteration
+	iteration -> generate
+	generate -> evaluate
+	evaluate -> update
+	update -> iteration [label="Repeat until iterations done"]
+	iteration -> best_subset [label="After all iterations"]
+	best_subset -> loop_subsets [label="Next subset"]
+	loop_subsets -> save [label="After all subsets"]
+	save -> end
+}

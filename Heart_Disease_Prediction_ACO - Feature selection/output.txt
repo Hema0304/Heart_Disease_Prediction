@@ -1,0 +1,264 @@
+Subset 1 - Decision Tree Performance:
+  Features: ['chol', 'restecg', 'oldpeak', 'ca']
+  Accuracy:       0.9844
+  Precision:      0.9760
+  Recall:         0.9939
+  F1 Score:       0.9849
+  ROC-AUC Score:  0.9902
+  Confusion Matrix:
+[[306   8]
+ [  2 326]]
+--------------------------------------------------
+Subset 1 - K-Nearest Neighbors Performance:
+  Features: ['chol', 'restecg', 'oldpeak', 'ca']
+  Accuracy:       0.8551
+  Precision:      0.8778
+  Recall:         0.8323
+  F1 Score:       0.8545
+  ROC-AUC Score:  0.9372
+  Confusion Matrix:
+[[276  38]
+ [ 55 273]]
+--------------------------------------------------
+Subset 1 - Random Forest Performance:
+  Features: ['chol', 'restecg', 'oldpeak', 'ca']
+  Accuracy:       0.9860
+  Precision:      0.9819
+  Recall:         0.9909
+  F1 Score:       0.9863
+  ROC-AUC Score:  0.9980
+  Confusion Matrix:
+[[308   6]
+ [  3 325]]
+--------------------------------------------------
+Subset 1 - XGBoost Performance:
+  Features: ['chol', 'restecg', 'oldpeak', 'ca']
+  Accuracy:       0.9408
+  Precision:      0.9394
+  Recall:         0.9451
+  F1 Score:       0.9422
+  ROC-AUC Score:  0.9781
+  Confusion Matrix:
+[[294  20]
+ [ 18 310]]
+--------------------------------------------------
+Subset 2 - Decision Tree Performance:
+  Features: ['age', 'cp', 'restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.9470
+  Precision:      0.9455
+  Recall:         0.9512
+  F1 Score:       0.9483
+  ROC-AUC Score:  0.9469
+  Confusion Matrix:
+[[296  18]
+ [ 16 312]]
+--------------------------------------------------
+Subset 2 - K-Nearest Neighbors Performance:
+  Features: ['age', 'cp', 'restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.8692
+  Precision:      0.8720
+  Recall:         0.8720
+  F1 Score:       0.8720
+  ROC-AUC Score:  0.9425
+  Confusion Matrix:
+[[272  42]
+ [ 42 286]]
+--------------------------------------------------
+Subset 2 - Random Forest Performance:
+  Features: ['age', 'cp', 'restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.9611
+  Precision:      0.9633
+  Recall:         0.9604
+  F1 Score:       0.9618
+  ROC-AUC Score:  0.9951
+  Confusion Matrix:
+[[302  12]
+ [ 13 315]]
+--------------------------------------------------
+Subset 2 - XGBoost Performance:
+  Features: ['age', 'cp', 'restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.9502
+  Precision:      0.9485
+  Recall:         0.9543
+  F1 Score:       0.9514
+  ROC-AUC Score:  0.9892
+  Confusion Matrix:
+[[297  17]
+ [ 15 313]]
+--------------------------------------------------
+Subset 3 - Decision Tree Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9190
+  Precision:      0.9259
+  Recall:         0.9146
+  F1 Score:       0.9202
+  ROC-AUC Score:  0.9306
+  Confusion Matrix:
+[[290  24]
+ [ 28 300]]
+--------------------------------------------------
+Subset 3 - K-Nearest Neighbors Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9097
+  Precision:      0.9116
+  Recall:         0.9116
+  F1 Score:       0.9116
+  ROC-AUC Score:  0.9558
+  Confusion Matrix:
+[[285  29]
+ [ 29 299]]
+--------------------------------------------------
+Subset 3 - Random Forest Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9221
+  Precision:      0.9344
+  Recall:         0.9116
+  F1 Score:       0.9228
+  ROC-AUC Score:  0.9825
+  Confusion Matrix:
+[[293  21]
+ [ 29 299]]
+--------------------------------------------------
+Subset 3 - XGBoost Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9221
+  Precision:      0.9427
+  Recall:         0.9024
+  F1 Score:       0.9221
+  ROC-AUC Score:  0.9688
+  Confusion Matrix:
+[[296  18]
+ [ 32 296]]
+--------------------------------------------------
+Subset 4 - Decision Tree Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9190
+  Precision:      0.9259
+  Recall:         0.9146
+  F1 Score:       0.9202
+  ROC-AUC Score:  0.9306
+  Confusion Matrix:
+[[290  24]
+ [ 28 300]]
+--------------------------------------------------
+Subset 4 - K-Nearest Neighbors Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9097
+  Precision:      0.9116
+  Recall:         0.9116
+  F1 Score:       0.9116
+  ROC-AUC Score:  0.9558
+  Confusion Matrix:
+[[285  29]
+ [ 29 299]]
+--------------------------------------------------
+Subset 4 - Random Forest Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9221
+  Precision:      0.9344
+  Recall:         0.9116
+  F1 Score:       0.9228
+  ROC-AUC Score:  0.9825
+  Confusion Matrix:
+[[293  21]
+ [ 29 299]]
+--------------------------------------------------
+Subset 4 - XGBoost Performance:
+  Features: ['cp', 'chol', 'slope', 'thal']
+  Accuracy:       0.9221
+  Precision:      0.9427
+  Recall:         0.9024
+  F1 Score:       0.9221
+  ROC-AUC Score:  0.9688
+  Confusion Matrix:
+[[296  18]
+ [ 32 296]]
+--------------------------------------------------
+Subset 5 - Decision Tree Performance:
+  Features: ['cp', 'trestbps', 'thalach', 'oldpeak', 'ca']
+  Accuracy:       0.9252
+  Precision:      0.9242
+  Recall:         0.9299
+  F1 Score:       0.9271
+  ROC-AUC Score:  0.9087
+  Confusion Matrix:
+[[289  25]
+ [ 23 305]]
+--------------------------------------------------
+Subset 5 - K-Nearest Neighbors Performance:
+  Features: ['cp', 'trestbps', 'thalach', 'oldpeak', 'ca']
+  Accuracy:       0.8411
+  Precision:      0.8531
+  Recall:         0.8323
+  F1 Score:       0.8426
+  ROC-AUC Score:  0.8711
+  Confusion Matrix:
+[[267  47]
+ [ 55 273]]
+--------------------------------------------------
+Subset 5 - Random Forest Performance:
+  Features: ['cp', 'trestbps', 'thalach', 'oldpeak', 'ca']
+  Accuracy:       0.9283
+  Precision:      0.9222
+  Recall:         0.9390
+  F1 Score:       0.9305
+  ROC-AUC Score:  0.9392
+  Confusion Matrix:
+[[288  26]
+ [ 20 308]]
+--------------------------------------------------
+Subset 5 - XGBoost Performance:
+  Features: ['cp', 'trestbps', 'thalach', 'oldpeak', 'ca']
+  Accuracy:       0.9159
+  Precision:      0.9006
+  Recall:         0.9390
+  F1 Score:       0.9194
+  ROC-AUC Score:  0.9431
+  Confusion Matrix:
+[[280  34]
+ [ 20 308]]
+--------------------------------------------------
+Subset 6 - Decision Tree Performance:
+  Features: ['restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.9408
+  Precision:      0.9290
+  Recall:         0.9573
+  F1 Score:       0.9429
+  ROC-AUC Score:  0.9773
+  Confusion Matrix:
+[[290  24]
+ [ 14 314]]
+--------------------------------------------------
+Subset 6 - K-Nearest Neighbors Performance:
+  Features: ['restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.8769
+  Precision:      0.8903
+  Recall:         0.8659
+  F1 Score:       0.8779
+  ROC-AUC Score:  0.9448
+  Confusion Matrix:
+[[279  35]
+ [ 44 284]]
+--------------------------------------------------
+Subset 6 - Random Forest Performance:
+  Features: ['restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.9377
+  Precision:      0.9286
+  Recall:         0.9512
+  F1 Score:       0.9398
+  ROC-AUC Score:  0.9856
+  Confusion Matrix:
+[[290  24]
+ [ 16 312]]
+--------------------------------------------------
+Subset 6 - XGBoost Performance:
+  Features: ['restecg', 'thalach', 'oldpeak']
+  Accuracy:       0.9003
+  Precision:      0.9099
+  Recall:         0.8933
+  F1 Score:       0.9015
+  ROC-AUC Score:  0.9533
+  Confusion Matrix:
+[[285  29]
+ [ 35 293]]
+--------------------------------------------------
